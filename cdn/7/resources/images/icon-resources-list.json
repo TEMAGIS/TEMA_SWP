@@ -1,0 +1,22 @@
+{
+  "1758043979921.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1758043979921.png",
+    "properties": {
+      "filename": "1758043979921.png",
+      "originalName": "TEMA Logo.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1758043979921.png",
+      "isUploaded": true,
+      "inlineSvg": false
+    }
+  },
+  "1776176318040.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1776176318040.png",
+    "properties": {
+      "filename": "1776176318040.png",
+      "originalName": "TN-logo.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1776176318040.png",
+      "isUploaded": true,
+      "inlineSvg": false
+    }
+  }
+}
