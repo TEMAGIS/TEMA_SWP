@@ -54,8 +54,7 @@
       "order": [
         "6",
         "7",
-        "0",
-        "5"
+        "0"
       ],
       "content": {
         "0": {
@@ -78,28 +77,6 @@
             },
             "hCenter": true,
             "vCenter": false
-          }
-        },
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_34",
-          "bbox": {
-            "left": "94.9%",
-            "right": "20.00px",
-            "top": "91.0%",
-            "bottom": "36.00px",
-            "width": "40px",
-            "height": "40px"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
           }
         },
         "6": {
@@ -154,7 +131,8 @@
         "1",
         "0",
         "2",
-        "3"
+        "3",
+        "4"
       ],
       "content": {
         "0": {
@@ -180,6 +158,12 @@
             "width": "516px",
             "height": "210px"
           },
+          "setting": {}
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_66",
+          "bbox": {},
           "setting": {}
         }
       },
@@ -535,8 +519,7 @@
       "order": [
         "6",
         "7",
-        "0",
-        "5"
+        "0"
       ],
       "content": {
         "0": {
@@ -559,28 +542,6 @@
             },
             "hCenter": true,
             "vCenter": false
-          }
-        },
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_34",
-          "bbox": {
-            "left": "94.9%",
-            "right": "20.00px",
-            "top": "91.0%",
-            "bottom": "36.00px",
-            "width": "40px",
-            "height": "40px"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
           }
         },
         "6": {
@@ -765,8 +726,7 @@
       "order": [
         "7",
         "6",
-        "0",
-        "5"
+        "0"
       ],
       "content": {
         "0": {
@@ -789,28 +749,6 @@
             },
             "hCenter": true,
             "vCenter": false
-          }
-        },
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_34",
-          "bbox": {
-            "left": "20.00px",
-            "right": "20.00px",
-            "top": "91.0%",
-            "bottom": "36.00px",
-            "width": "40px",
-            "height": "40px"
-          },
-          "setting": {
-            "autoProps": {
-              "right": true,
-              "left": false,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
           }
         },
         "6": {
@@ -1259,7 +1197,7 @@
       "uri": "widgets/common/controller/",
       "config": {
         "behavior": {
-          "onlyOpenOne": true,
+          "onlyOpenOne": false,
           "displayType": "STACK",
           "vertical": false,
           "size": {
@@ -1267,7 +1205,9 @@
               "width": 527,
               "height": 278
             }
-          }
+          },
+          "openStarts": [],
+          "arrangement": "floating"
         },
         "appearance": {
           "space": 0,
@@ -1335,7 +1275,8 @@
         "goto": true,
         "label": true,
         "popup": true,
-        "opacity": true
+        "opacity": true,
+        "visibilityRange": true
       },
       "useMapWidgetIds": [
         "widget_23"
@@ -1381,6 +1322,7 @@
       "version": "1.18.0",
       "config": {
         "text": "<p><strong style=\"font-size: 20px; color: var(--light);\">﻿TEMA SWP</strong></p>",
+        "placeholder": "<p><strong style=\"font-size: 20px; color: var(--light);\">Double click to edit text</strong></p>",
         "style": {
           "wrap": false
         }
@@ -1538,103 +1480,16 @@
       },
       "label": "Sidebar"
     },
-    "widget_34": {
-      "uri": "widgets/common/button/",
-      "version": "1.18.0",
-      "config": {
-        "functionConfig": {
-          "icon": {
-            "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 20 20\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M0 2a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1h16a1 1 0 0 1 1 1v5H1V2a1 1 0 0 1 1-1m11 7H7v3h6zm0 4H7v3h6zm1 3v-3h5v3zm-1 1H7v3h6zm1 3h4a1 1 0 0 0 1-1v-2h-5zm0-8V8h5v3zM1 8h5v3H1zm0 4h5v3H1zm0 4h5v3H2a1 1 0 0 1-1-1z\" clip-rule=\"evenodd\"></path></svg>",
-              "properties": {
-                "filename": "WidgetTableOutlined",
-                "color": "var(--dark-800)",
-                "originalName": "outlined/brand/widget-table.svg",
-                "path": [
-                  "brandAndLogos",
-                  "WidgetTableOutlined"
-                ],
-                "isUploaded": false,
-                "inlineSvg": true
-              }
-            },
-            "position": "LEFT"
-          },
-          "text": "",
-          "textExpression": null
-        },
-        "styleConfig": {
-          "useCustom": true,
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "var(--primary)",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "color": "var(--primary)",
-                "width": "1px"
-              },
-              "text": {
-                "color": "#fff",
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  100,
-                  100,
-                  100,
-                  100
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "color": "#ffffff",
-                "size": 16
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "var(--primary-400)",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "width": "0px"
-              },
-              "text": {
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  100,
-                  100,
-                  100,
-                  100
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "color": "#ffffff",
-                "size": 16
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_34",
-      "useDataSources": [],
-      "label": "Button 2"
-    },
     "widget_35": {
       "uri": "widgets/common/table/",
       "version": "1.18.0",
       "config": {
         "layersConfig": [],
-        "arrangeType": "TABS",
+        "arrangeType": "DROPDOWN",
         "tableMode": "MAP",
-        "enableMapExtentFilter": true
+        "enableMapExtentFilter": true,
+        "enableRelatedRecords": true,
+        "defaultExtentFilterEnabled": true
       },
       "id": "widget_35",
       "dataActions": {
@@ -1838,12 +1693,13 @@
       "version": "1.18.0",
       "config": {
         "behavior": {
-          "onlyOpenOne": true,
+          "onlyOpenOne": false,
           "openStarts": [],
           "displayType": "STACK",
           "vertical": false,
           "size": {},
-          "alignment": "end"
+          "alignment": "end",
+          "arrangement": "floating"
         },
         "appearance": {
           "space": 0,
@@ -2166,7 +2022,8 @@
       "uri": "widgets/common/text/",
       "version": "1.18.0",
       "config": {
-        "text": "<p><span style=\"font-size: 18px;\">Lorem ipsum dolor sit amet</span></p><p><br></p><p><img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" data-name=\"svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" width=\"145\" style=\"display: block; float: left; margin: 0px 0.9em 0.9em 0px; width: 31.66%;\">Ne debet assentior qui. Zril salutandi comprehensam an qui, nam no semper temporibus dissentiet, eleifend antiopam evertitur at sed. An wisi efficiendi sit.</p><p><br></p><p>Vel ea mentitum dissentiet, partem saperet accumsan vim ex, meliore repudiare consetetur et has.</p><p><br></p><p>Eu nostrum volutpat maluisset has, per ea homero utamur, ius ut wisi nominati. Sumo denique appareat.</p><p><br></p><p>Inermis vituperatoribus et ius. Aeque tritani eu qui, ne pri euripidis, mandamus reprimique te vix. Ei case atqui sonet vim.</p>"
+        "text": "<p><span style=\"font-size: 18px;\">Lorem ipsum dolor sit amet</span></p><p><br></p><p><img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" data-name=\"svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" width=\"145\" style=\"display: block; float: left; margin: 0px 0.9em 0.9em 0px; width: 31.66%;\">Ne debet assentior qui. Zril salutandi comprehensam an qui, nam no semper temporibus dissentiet, eleifend antiopam evertitur at sed. An wisi efficiendi sit.</p><p><br></p><p>Vel ea mentitum dissentiet, partem saperet accumsan vim ex, meliore repudiare consetetur et has.</p><p><br></p><p>Eu nostrum volutpat maluisset has, per ea homero utamur, ius ut wisi nominati. Sumo denique appareat.</p><p><br></p><p>Inermis vituperatoribus et ius. Aeque tritani eu qui, ne pri euripidis, mandamus reprimique te vix. Ei case atqui sonet vim.</p>",
+        "placeholder": "Double click to edit text"
       },
       "id": "widget_57",
       "label": "Text 4"
@@ -2215,7 +2072,7 @@
       "version": "1.18.0",
       "label": "Draw",
       "config": {
-        "arrangement": "Toolbar",
+        "arrangement": "Panel",
         "drawMode": "continuous",
         "drawingTools": [
           "point",
@@ -2271,7 +2128,7 @@
       "useMapWidgetIds": [
         "widget_23"
       ],
-      "offPanel": true
+      "offPanel": false
     },
     "widget_60": {
       "uri": "widgets/common/add-data/",
@@ -2366,11 +2223,954 @@
       "useMapWidgetIds": [
         "widget_23"
       ]
+    },
+    "widget_66": {
+      "uri": "widgets/common/print/",
+      "version": "1.18.0",
+      "label": "Print",
+      "config": {
+        "printServiceType": "CUSTOMIZE",
+        "printTemplateType": "CUSTOMIZE",
+        "modeType": "CLASSIC",
+        "commonSetting": {
+          "scalePreserved": false,
+          "layoutOptions": {
+            "titleText": "ArcGIS Web Map"
+          },
+          "outScale": 36978595.474472,
+          "exportOptions": {
+            "dpi": 96
+          },
+          "printExtentType": "CURRENT MAP EXTENT",
+          "forceFeatureAttributes": false,
+          "enableTitle": true,
+          "enableMapPrintExtents": true,
+          "enableOutputSpatialReference": false,
+          "enableQuality": true,
+          "enableFeatureAttribution": true
+        },
+        "previewBackgroundColor": "rgba(0,216,237,1)",
+        "enablePreview": true,
+        "previewOutLine": {
+          "color": "#000",
+          "size": "4px"
+        },
+        "hasInitBorder": true,
+        "printCustomTemplate": [
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "scalebarUnit": "Miles",
+              "legendLayers": null
+            },
+            "exportOptions": {
+              "dpi": 96,
+              "width": 800,
+              "height": 1100
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": null,
+            "wkidLabel": null,
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "pdf",
+            "reportTypes": "Service Report",
+            "layoutTypes": "Service Layout",
+            "templateId": "config_custom_8",
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "showLabels": true
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {
+                "Legend": {
+                  "name": "Legend",
+                  "type": "CIMLegend",
+                  "visible": true,
+                  "defaultLegendItem": {
+                    "dynamicLegends": true
+                  }
+                },
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": true
+                },
+                "Scale bar": {
+                  "name": "Scale bar",
+                  "type": "CIMGroupElement",
+                  "visible": true,
+                  "elements": [
+                    {
+                      "name": "Scale Line",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    },
+                    {
+                      "name": "Scale Line 1",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    }
+                  ]
+                }
+              }
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": null,
+            "wkidLabel": null,
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "Letter ANSI A Landscape",
+            "layout": "Letter ANSI A Landscape",
+            "format": "pdf",
+            "reportTypes": "Service Report",
+            "layoutTypes": "Service Layout",
+            "templateId": "config_custom_4",
+            "mapFrameSize": [
+              10,
+              6.25
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "showLabels": true
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {
+                "Legend": {
+                  "name": "Legend",
+                  "type": "CIMLegend",
+                  "visible": true,
+                  "defaultLegendItem": {
+                    "dynamicLegends": true
+                  }
+                },
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": true
+                },
+                "Scale bar": {
+                  "name": "Scale bar",
+                  "type": "CIMGroupElement",
+                  "visible": true,
+                  "elements": [
+                    {
+                      "name": "Scale Line",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    },
+                    {
+                      "name": "Scale Line 1",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    }
+                  ]
+                }
+              }
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": null,
+            "wkidLabel": null,
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "Letter ANSI A Portrait",
+            "layout": "Letter ANSI A Portrait",
+            "format": "pdf",
+            "reportTypes": "Service Report",
+            "layoutTypes": "Service Layout",
+            "templateId": "config_custom_5",
+            "mapFrameSize": [
+              7.5,
+              8
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "showLabels": true
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {
+                "Legend": {
+                  "name": "Legend",
+                  "type": "CIMLegend",
+                  "visible": true,
+                  "defaultLegendItem": {
+                    "dynamicLegends": true
+                  }
+                },
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": true
+                },
+                "Scale bar": {
+                  "name": "Scale bar",
+                  "type": "CIMGroupElement",
+                  "visible": true,
+                  "elements": [
+                    {
+                      "name": "Scale Line",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    },
+                    {
+                      "name": "Scale Line 1",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    }
+                  ]
+                }
+              }
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": null,
+            "wkidLabel": null,
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "Tabloid ANSI B Landscape",
+            "layout": "Tabloid ANSI B Landscape",
+            "format": "pdf",
+            "reportTypes": "Service Report",
+            "layoutTypes": "Service Layout",
+            "templateId": "config_custom_6",
+            "mapFrameSize": [
+              16,
+              7.76
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "showLabels": true
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {
+                "Legend": {
+                  "name": "Legend",
+                  "type": "CIMLegend",
+                  "visible": true,
+                  "defaultLegendItem": {
+                    "dynamicLegends": true
+                  }
+                },
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": true
+                },
+                "Scale bar": {
+                  "name": "Scale bar",
+                  "type": "CIMGroupElement",
+                  "visible": true,
+                  "elements": [
+                    {
+                      "name": "Scale Line",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    },
+                    {
+                      "name": "Scale Line 1",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    }
+                  ]
+                }
+              }
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": null,
+            "wkidLabel": null,
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": false,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "Tabloid ANSI B Portrait",
+            "layout": "Tabloid ANSI B Portrait",
+            "format": "pdf",
+            "reportTypes": "Service Report",
+            "layoutTypes": "Service Layout",
+            "templateId": "config_custom_7",
+            "mapFrameSize": [
+              10,
+              13.61
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true,
+            "selectedFormatList": [
+              "pdf"
+            ],
+            "showLabels": true
+          }
+        ],
+        "useUtility": {
+          "utilityId": "utility_1"
+        },
+        "formatList": [
+          "pdf",
+          "png32",
+          "png8",
+          "jpg",
+          "gif",
+          "eps",
+          "svg",
+          "svgz",
+          "aix",
+          "tiff"
+        ],
+        "defaultFormat": "pdf",
+        "layoutChoiceList": [
+          {
+            "label": "A3 Landscape",
+            "layout": "A3 Landscape",
+            "format": "pdf",
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {
+                "Legend": {
+                  "name": "Legend",
+                  "type": "CIMLegend",
+                  "visible": true,
+                  "defaultLegendItem": {
+                    "dynamicLegends": true
+                  }
+                },
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": true
+                },
+                "Scale bar": {
+                  "name": "Scale bar",
+                  "type": "CIMGroupElement",
+                  "visible": true,
+                  "elements": [
+                    {
+                      "name": "Scale Line",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    },
+                    {
+                      "name": "Scale Line 1",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    }
+                  ]
+                }
+              }
+            },
+            "layoutTemplate": "A3 Landscape",
+            "mapFrameSize": [
+              40,
+              21.17
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true,
+            "enableLegend": true,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableScalebarUnit": true
+          },
+          {
+            "label": "A3 Portrait",
+            "layout": "A3 Portrait",
+            "format": "pdf",
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {
+                "Legend": {
+                  "name": "Legend",
+                  "type": "CIMLegend",
+                  "visible": true,
+                  "defaultLegendItem": {
+                    "dynamicLegends": true
+                  }
+                },
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": true
+                },
+                "Scale bar": {
+                  "name": "Scale bar",
+                  "type": "CIMGroupElement",
+                  "visible": true,
+                  "elements": [
+                    {
+                      "name": "Scale Line",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    },
+                    {
+                      "name": "Scale Line 1",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    }
+                  ]
+                }
+              }
+            },
+            "layoutTemplate": "A3 Portrait",
+            "mapFrameSize": [
+              27.68,
+              33.45
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true,
+            "enableLegend": true,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableScalebarUnit": true
+          },
+          {
+            "label": "A4 Landscape",
+            "layout": "A4 Landscape",
+            "format": "pdf",
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {
+                "Legend": {
+                  "name": "Legend",
+                  "type": "CIMLegend",
+                  "visible": true,
+                  "defaultLegendItem": {
+                    "dynamicLegends": true
+                  }
+                },
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": true
+                },
+                "Scale bar": {
+                  "name": "Scale bar",
+                  "type": "CIMGroupElement",
+                  "visible": true,
+                  "elements": [
+                    {
+                      "name": "Scale Line",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    },
+                    {
+                      "name": "Scale Line 1",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    }
+                  ]
+                }
+              }
+            },
+            "layoutTemplate": "A4 Landscape",
+            "mapFrameSize": [
+              27.76,
+              15.92
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true,
+            "enableLegend": true,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableScalebarUnit": true
+          },
+          {
+            "label": "A4 Portrait",
+            "layout": "A4 Portrait",
+            "format": "pdf",
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {
+                "Legend": {
+                  "name": "Legend",
+                  "type": "CIMLegend",
+                  "visible": true,
+                  "defaultLegendItem": {
+                    "dynamicLegends": true
+                  }
+                },
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": true
+                },
+                "Scale bar": {
+                  "name": "Scale bar",
+                  "type": "CIMGroupElement",
+                  "visible": true,
+                  "elements": [
+                    {
+                      "name": "Scale Line",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    },
+                    {
+                      "name": "Scale Line 1",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    }
+                  ]
+                }
+              }
+            },
+            "layoutTemplate": "A4 Portrait",
+            "mapFrameSize": [
+              19.02,
+              22.29
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true,
+            "enableLegend": true,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableScalebarUnit": true
+          },
+          {
+            "label": "Letter ANSI A Landscape",
+            "layout": "Letter ANSI A Landscape",
+            "format": "pdf",
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {
+                "Legend": {
+                  "name": "Legend",
+                  "type": "CIMLegend",
+                  "visible": true,
+                  "defaultLegendItem": {
+                    "dynamicLegends": true
+                  }
+                },
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": true
+                },
+                "Scale bar": {
+                  "name": "Scale bar",
+                  "type": "CIMGroupElement",
+                  "visible": true,
+                  "elements": [
+                    {
+                      "name": "Scale Line",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    },
+                    {
+                      "name": "Scale Line 1",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    }
+                  ]
+                }
+              }
+            },
+            "layoutTemplate": "Letter ANSI A Landscape",
+            "mapFrameSize": [
+              10,
+              6.25
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true,
+            "enableLegend": true,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableScalebarUnit": true
+          },
+          {
+            "label": "Letter ANSI A Portrait",
+            "layout": "Letter ANSI A Portrait",
+            "format": "pdf",
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {
+                "Legend": {
+                  "name": "Legend",
+                  "type": "CIMLegend",
+                  "visible": true,
+                  "defaultLegendItem": {
+                    "dynamicLegends": true
+                  }
+                },
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": true
+                },
+                "Scale bar": {
+                  "name": "Scale bar",
+                  "type": "CIMGroupElement",
+                  "visible": true,
+                  "elements": [
+                    {
+                      "name": "Scale Line",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    },
+                    {
+                      "name": "Scale Line 1",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    }
+                  ]
+                }
+              }
+            },
+            "layoutTemplate": "Letter ANSI A Portrait",
+            "mapFrameSize": [
+              7.5,
+              8
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true,
+            "enableLegend": true,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableScalebarUnit": true
+          },
+          {
+            "label": "Tabloid ANSI B Landscape",
+            "layout": "Tabloid ANSI B Landscape",
+            "format": "pdf",
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {
+                "Legend": {
+                  "name": "Legend",
+                  "type": "CIMLegend",
+                  "visible": true,
+                  "defaultLegendItem": {
+                    "dynamicLegends": true
+                  }
+                },
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": true
+                },
+                "Scale bar": {
+                  "name": "Scale bar",
+                  "type": "CIMGroupElement",
+                  "visible": true,
+                  "elements": [
+                    {
+                      "name": "Scale Line",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    },
+                    {
+                      "name": "Scale Line 1",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    }
+                  ]
+                }
+              }
+            },
+            "layoutTemplate": "Tabloid ANSI B Landscape",
+            "mapFrameSize": [
+              16,
+              7.76
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true,
+            "enableLegend": true,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableScalebarUnit": true
+          },
+          {
+            "label": "Tabloid ANSI B Portrait",
+            "layout": "Tabloid ANSI B Portrait",
+            "format": "pdf",
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "legendLayers": [],
+              "customTextElements": [],
+              "elementOverrides": {
+                "Legend": {
+                  "name": "Legend",
+                  "type": "CIMLegend",
+                  "visible": true,
+                  "defaultLegendItem": {
+                    "dynamicLegends": true
+                  }
+                },
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": true
+                },
+                "Scale bar": {
+                  "name": "Scale bar",
+                  "type": "CIMGroupElement",
+                  "visible": true,
+                  "elements": [
+                    {
+                      "name": "Scale Line",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    },
+                    {
+                      "name": "Scale Line 1",
+                      "type": "CIMScaleLine",
+                      "visible": true
+                    }
+                  ]
+                }
+              }
+            },
+            "layoutTemplate": "Tabloid ANSI B Portrait",
+            "mapFrameSize": [
+              10,
+              13.61
+            ],
+            "mapFrameUnit": "INCH",
+            "hasAuthorText": true,
+            "hasCopyrightText": false,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true,
+            "enableLegend": true,
+            "enableAuthor": true,
+            "enableCopyright": false,
+            "enableScalebarUnit": true
+          },
+          {
+            "label": "MAP_ONLY",
+            "layout": "MAP_ONLY",
+            "format": "pdf",
+            "layoutTemplate": "MAP_ONLY",
+            "enableScalebarUnit": true
+          }
+        ],
+        "supportCustomLayout": true,
+        "supportReport": false,
+        "supportCustomReport": false
+      },
+      "id": "widget_66",
+      "useMapWidgetIds": [
+        "widget_23"
+      ],
+      "style": {
+        "border": {
+          "color": "var(--ref-palette-neutral-700)",
+          "type": "solid",
+          "width": "1px"
+        }
+      },
+      "offPanel": false,
+      "useUtilities": [
+        {
+          "utilityId": "utility_1"
+        }
+      ]
     }
   },
   "customTheme": {
-    "colors": {
-      "primary": "#5604d7"
+    "typography": {
+      "fontFamilyBase": "Arial"
     }
   },
   "exbVersion": "1.18.0",
@@ -2426,37 +3226,6 @@
     }
   },
   "messageConfigs": {
-    "messageConfig_4": {
-      "id": "messageConfig_4",
-      "widgetId": "widget_34",
-      "messageType": "BUTTON_CLICK",
-      "actions": [
-        {
-          "actionId": "widget_49-toggleSidebar-1727159623177",
-          "widgetId": "widget_49",
-          "messageWidgetId": "widget_34",
-          "actionName": "toggleSidebar",
-          "description": null,
-          "version": "1.18.0"
-        },
-        {
-          "actionId": "widget_47-toggleSidebar-1727159667710",
-          "widgetId": "widget_47",
-          "messageWidgetId": "widget_34",
-          "actionName": "toggleSidebar",
-          "description": null,
-          "version": "1.18.0"
-        },
-        {
-          "actionId": "widget_33-toggleSidebar-1727159683243",
-          "widgetId": "widget_33",
-          "messageWidgetId": "widget_34",
-          "actionName": "toggleSidebar",
-          "description": null,
-          "version": "1.18.0"
-        }
-      ]
-    },
     "messageConfig_5": {
       "id": "messageConfig_5",
       "widgetId": "widget_27",
@@ -2573,7 +3342,7 @@
     "backgroundColor": "var(--primary-700)"
   },
   "useAutoSortInFixedLayout": true,
-  "publishTimestamp": 1776365039726,
+  "publishTimestamp": 1750648177966,
   "attributes": {
     "portalUrl": "https://tnema.maps.arcgis.com",
     "favicon": {
@@ -2585,16 +3354,9 @@
         "isUploaded": true,
         "inlineSvg": false
       }
-    },
-    "isWebTier": false,
-    "clientId": "5Pykj9UAGYURfNuQ",
-    "express": false,
-    "title": "TEMA_SWP",
-    "description": "WBNP GIS Viewer",
-    "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1773768682570.png"
+    }
   },
-  "timestamp": 1776364992800,
+  "timestamp": 1776777804132,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
@@ -2608,6 +3370,20 @@
       "sourceLabel": "SWP_ExB",
       "itemId": "1dc2b0310f704035ae17257a6a255018",
       "portalUrl": "https://tnema.maps.arcgis.com"
+    }
+  },
+  "appStateConfig": {
+    "allowRestoreState": true
+  },
+  "utilities": {
+    "utility_1": {
+      "id": "utility_1",
+      "type": "PRINTING",
+      "name": "printTask",
+      "label": "Printing",
+      "url": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+      "source": "org",
+      "orgSetting": {}
     }
   }
 }
