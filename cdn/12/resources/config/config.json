@@ -1223,7 +1223,7 @@
             "variant": {
               "default": {
                 "color": "var(--light)",
-                "bg": "#383838",
+                "bg": "var(--primary)",
                 "border": {
                   "color": "#5604d7",
                   "width": "1px"
@@ -3356,7 +3356,7 @@
       }
     }
   },
-  "timestamp": 1776777804132,
+  "timestamp": 1776780441616,
   "sharedThemeVariables": {
     "header": {},
     "body": {},

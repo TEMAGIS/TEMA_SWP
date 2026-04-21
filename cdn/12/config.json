@@ -1223,7 +1223,7 @@
             "variant": {
               "default": {
                 "color": "var(--light)",
-                "bg": "#383838",
+                "bg": "var(--primary)",
                 "border": {
                   "color": "#5604d7",
                   "width": "1px"
@@ -3340,7 +3340,7 @@
     "backgroundColor": "var(--primary-700)"
   },
   "useAutoSortInFixedLayout": true,
-  "publishTimestamp": 1776777805632,
+  "publishTimestamp": 1776780454083,
   "attributes": {
     "portalUrl": "https://tnema.maps.arcgis.com",
     "favicon": {
@@ -3361,7 +3361,7 @@
     "type": "Web Experience",
     "thumbnail": "thumbnail/thumbnail1773768682570.png"
   },
-  "timestamp": 1776777804132,
+  "timestamp": 1776780441616,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
