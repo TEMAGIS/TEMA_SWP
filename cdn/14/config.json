@@ -2148,7 +2148,13 @@
         "autoPlay": true,
         "LoopContinuously": false,
         "timeSettings": {
-          "layerList": null,
+          "layerList": [
+            {
+              "rootDataSourceId": "dataSource_7",
+              "dataSourceId": "dataSource_7-1997685ecdf-layer-96",
+              "mainDataSourceId": "dataSource_7-1997685ecdf-layer-96"
+            }
+          ],
           "startTime": {
             "value": "MIN"
           },
@@ -2157,7 +2163,7 @@
           },
           "timeDisplayStrategy": "CURRENT",
           "dividedCount": 8,
-          "accuracy": "hour",
+          "accuracy": "minute",
           "stepLength": null,
           "speed": "FASTEST"
         },
@@ -3449,7 +3455,7 @@
     "backgroundColor": "var(--primary-700)"
   },
   "useAutoSortInFixedLayout": true,
-  "publishTimestamp": 1776968894274,
+  "publishTimestamp": 1781118275671,
   "attributes": {
     "portalUrl": "https://tnema.maps.arcgis.com",
     "favicon": {
@@ -3470,7 +3476,7 @@
     "type": "Web Experience",
     "thumbnail": "thumbnail/thumbnail1773768682570.png"
   },
-  "timestamp": 1776968889561,
+  "timestamp": 1781118212803,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
