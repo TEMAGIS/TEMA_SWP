@@ -1,0 +1,54 @@
+{
+  "1758045692096": {
+    "originalName": "TN-logo.png",
+    "fileName": "1758045692096.png",
+    "size": 7476,
+    "url": "${appResourceUrl}/images/background_setting/1758045692096.png",
+    "created": 1758045692096,
+    "resourcesPrefix": "images/background_setting",
+    "referredIds": [],
+    "originId": "1758045692096",
+    "fileFormat": "image/png",
+    "originalWidth": 300,
+    "originalHeight": 300
+  },
+  "1788270247815": {
+    "originalName": "Wimagery.png",
+    "fileName": "1788270247815.png",
+    "size": 102522,
+    "url": "${appResourceUrl}/images/widget_46/1788270247815.png",
+    "created": 1788270247815,
+    "resourcesPrefix": "images/widget_46",
+    "referredIds": [],
+    "originId": "1788270247815",
+    "fileFormat": "image/png",
+    "originalWidth": 262,
+    "originalHeight": 173
+  },
+  "1788270253790": {
+    "originalName": "Wstreet.png",
+    "fileName": "1788270253790.png",
+    "size": 86430,
+    "url": "${appResourceUrl}/images/widget_46/1788270253790.png",
+    "created": 1788270253790,
+    "resourcesPrefix": "images/widget_46",
+    "referredIds": [],
+    "originId": "1788270253790",
+    "fileFormat": "image/png",
+    "originalWidth": 251,
+    "originalHeight": 170
+  },
+  "1788270259471": {
+    "originalName": "Wtopo.png",
+    "fileName": "1788270259471.png",
+    "size": 76430,
+    "url": "${appResourceUrl}/images/widget_46/1788270259471.png",
+    "created": 1788270259471,
+    "resourcesPrefix": "images/widget_46",
+    "referredIds": [],
+    "originId": "1788270259471",
+    "fileFormat": "image/png",
+    "originalWidth": 247,
+    "originalHeight": 171
+  }
+}

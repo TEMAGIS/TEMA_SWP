@@ -1847,7 +1847,47 @@
     "widget_46": {
       "uri": "widgets/arcgis/basemap-gallery/",
       "version": "1.18.0",
-      "config": {},
+      "config": {
+        "basemapsType": "CUSTOM",
+        "customBasemaps": [
+          {
+            "id": "3eb052b0-a60b-11f1-8f3b-37e8222e8d1f-basemap-url",
+            "title": "World Imagery",
+            "layerUrls": [
+              "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer"
+            ],
+            "thumbnail": {
+              "url": "${appResourceUrl}/images/widget_46/1788270247815.png",
+              "originalUrl": "${appResourceUrl}/images/widget_46/1788270247815.png",
+              "fileName": "1788270247815.png",
+              "originalName": "Wimagery.png",
+              "imgSourceType": "BY_UPLOAD",
+              "fileFormat": "image/png",
+              "originalId": "1788270247815",
+              "originalWidth": 262,
+              "originalHeight": 173
+            }
+          },
+          {
+            "id": "537eb560-a60b-11f1-8f3b-37e8222e8d1f-basemap-url",
+            "title": "World Topo",
+            "layerUrls": [
+              "https://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer"
+            ],
+            "thumbnail": {
+              "url": "${appResourceUrl}/images/widget_46/1788270259471.png",
+              "originalUrl": "${appResourceUrl}/images/widget_46/1788270259471.png",
+              "fileName": "1788270259471.png",
+              "originalName": "Wtopo.png",
+              "imgSourceType": "BY_UPLOAD",
+              "fileFormat": "image/png",
+              "originalId": "1788270259471",
+              "originalWidth": 247,
+              "originalHeight": 171
+            }
+          }
+        ]
+      },
       "id": "widget_46",
       "useMapWidgetIds": [
         "widget_23"
@@ -6845,7 +6885,7 @@
     "backgroundColor": "var(--primary-700)"
   },
   "useAutoSortInFixedLayout": true,
-  "publishTimestamp": 1783618207128,
+  "publishTimestamp": 1788270379805,
   "attributes": {
     "portalUrl": "https://tnema.maps.arcgis.com",
     "favicon": {
@@ -6866,7 +6906,7 @@
     "type": "Web Experience",
     "thumbnail": "thumbnail/thumbnail1773768682570.png"
   },
-  "timestamp": 1783618205590,
+  "timestamp": 1788270326427,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
@@ -6885,7 +6925,7 @@
     }
   },
   "appStateConfig": {
-    "allowRestoreState": true
+    "allowRestoreState": false
   },
   "utilities": {
     "utility_1": {
